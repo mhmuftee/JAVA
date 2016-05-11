@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="lib/poi-3.14-beta1-20151223.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/D:/IDE/poi-3.14-beta1/docs/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/commons-csv-1.3.jar" sourcepath="lib/commons-csv-1.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/D:/IDE/commons-csv-1.3/commons-csv-1.3_docs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
