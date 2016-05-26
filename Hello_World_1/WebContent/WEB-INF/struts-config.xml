@@ -12,7 +12,11 @@
 <action-mappings>
 <action path="/login" name="loginForm" type="com.mhmuftee.actions.Login">
 <forward name="success" path="/login/success.jsp"></forward>
+<<<<<<< HEAD
 <forward name="tryAgain" redirect="true" path="/login/redirect.jsp"></forward>
+=======
+<forward name="tryAgain" redirect="true"></forward>
+>>>>>>> branch 'Web' of https://github.com/mhmuftee/Java.git
 <forward name="failed" path="/login/failed.jsp"></forward>
 </action>
 </action-mappings>
